@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="github" revision="topaz" />
+ <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="github" revision="pex13" />
  <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="github" revision="thirteen" />
  <project path="kernel/xiaomi/fog/fog-kernel" name="Neko059/kernel_xiaomi_fog-kernel" remote="github" revision="topaz" />
 
