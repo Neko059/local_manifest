@@ -13,8 +13,16 @@
  <!-- Hardware Xiaomi -->
  <project path="hardware/xiaomi" name="Neko059/hardware_xiaomi" remote="github" revision="lineage-20" />
  
- <!-- Pro clang -->
-  <!-- hmm <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/> -->
+ <!-- QCOM DEPENDENCIES -->
+ <project path="device/qcom/common" name="PixelExperience-Devices/device_qcom_common" remote="hub" revision="thirteen" />
+ <project path="device/qcom/common-sepolicy" name="PixelExperience-Devices/device_qcom_common-sepolicy" remote="hub" revision="thirteen" />
+ <project path="device/qcom/qssi" name="PixelExperience-Devices/device_qcom_qssi" remote="hub" revision="thirteen" />
+ <project path="device/qcom/vendor-common" name="PixelExperience-Devices/device_qcom_vendor-common" remote="hub" revision="thirteen" />
+ <project path="device/qcom/wlan" name="PixelExperience-Devices/device_qcom_wlan" remote="hub" revision="thirteen" />
+ <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="hub" revision="thirteen" />
+ 
+ <!-- ini clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
  
 </manifest>
