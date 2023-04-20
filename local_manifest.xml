@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- remote -->
+ <remote name="lab" fetch="https://gitlab.com"/>
+ <remote name="hub" fetch="https://github.com"/>
+
  <!-- Trees -->
- <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="github" revision="pex13" />
- <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="github" revision="thirteen" />
+ <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="hub" revision="pex13" />
+ <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="hub" revision="thirteen" />
  <project name="Neko059/kernel_xiaomi_fog-header" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
 
  <!-- Hardware Xiaomi -->
@@ -11,6 +15,6 @@
  
  <!-- Pro clang -->
   <!-- hmm <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/> -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
  
 </manifest>
