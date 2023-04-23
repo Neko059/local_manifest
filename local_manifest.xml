@@ -3,15 +3,15 @@
 
  <!-- remote -->
  <remote name="lab" fetch="https://gitlab.com"/>
- <remote name="hub" fetch="https://github.com"/>
+ <remote name="neko" fetch="https://github.com/Neko059"/>
 
  <!-- Trees -->
- <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="hub" revision="pixelexperience-13" />
- <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="hub" revision="lineage-20" />
- <project path="kernel/xiaomi/fog" name="Neko059/kernel_xiaomi_fog-kernel" remote="hub" revision="lineage-20" />
+ <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="neko" revision="pixelexperience-13" />
+ <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="neko" revision="lineage-20" />
+ <project path="kernel/xiaomi/fog" name="Neko059/kernel_xiaomi_fog-kernel" remote="neko" revision="lineage-20" />
 
  <!-- Hardware Xiaomi -->
- <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="hub" revision="thirteen" />
+ <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
 
  <!-- ini clang -->
   <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/> -->
