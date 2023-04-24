@@ -4,7 +4,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/fog" name="Neko059/device_xiaomi_fog" remote="github" revision="pixelexperience-13" />
  <project path="vendor/xiaomi/fog" name="Neko059/vendor_xiaomi_fog" remote="github" revision="lineage-20" />
- <project path="kernel/xiaomi/fog" name="Neko059/kernel_xiaomi_fog-kernel" remote="github" revision="lineage-20" />
+ <project path="kernel/xiaomi/fog" name="Neko059/kernel_xiaomi_fog" remote="github" revision="thirteen" />
 
  <!-- Hardware Xiaomi -->
  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
